@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "activationCommands": {
-    "atom-workspace": "html-significant-other:toggle",
     "atom-workspace": "html-significant-other:test"
   },
   "repository": "https://github.com/atom/html-significant-other",
