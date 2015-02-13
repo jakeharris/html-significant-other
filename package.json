@@ -1,0 +1,17 @@
+{
+  "name": "html-significant-other",
+  "main": "./lib/html-significant-other",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "html-significant-other:toggle",
+    "atom-workspace": "html-significant-other:test"
+  },
+  "repository": "https://github.com/atom/html-significant-other",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
