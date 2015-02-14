@@ -1,12 +1,23 @@
+{CompositeDisposable} = require 'event-kit'
+{Helpers} = require './html-significant-other-helpers'
+
 module.exports =
 
-  activate: ->
-    atom.commands.add 'atom-workspace', "html-significant-other:test", => @test()
 
-  test: ->
-    # This assumes the active pane item is an editor
-    editor = atom.workspace.getActivePaneItem()
-    editor.insertText('Hello, world!')
+  activate: (state) ->
+    @helpers = new Helpers
+    @subscriptions = new CompositeDisposable
+    @subscriptions.add atom.workspaceobserveTextEditors (editor) =>
+      buffer = editor.getBuffer()
+
+      editorSubscriptions.add buffer.onDidChange (e) ->
+        if e.newText is '>'
+          cursor = editor.getCursorBufferPosition()
+          scopes = editor.scopesForBufferPosition(cursor)
+
+
+  subscribe: ->
+    # TODO: Write
 
   deactivate: ->
 
