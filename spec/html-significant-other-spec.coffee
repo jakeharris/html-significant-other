@@ -8,11 +8,15 @@ HtmlSignificantOther = require '../lib/html-significant-other'
 describe "your significant other", ->
   describe "on start-up, your significant other", ->
 
-    it "subscribes to the editor"#, ->
-      # expect(atom.packages.getActivePackage('html-significant-other')).not.toExist()
+    instance = atom.packages.getLoadedPackage('html-significant-other')
+
+    it "subscribes to the editor", ->
+      expect(atom.packages.getActivePackage('html-significant-other')).not.toExist()
       # needs to then spy on the subscription method and activate the atom package
       # expect that we ran the subscription method
       # expect that its subscriptions include a subscription to the text buffer
+
+    atom.packages.activatePackage('html-significant-other')
 
     it "can tell when you've typed something"
     it "can tell when you've typed a closing angle bracket"
