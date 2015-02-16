@@ -1,3 +1,6 @@
+## 0.1.2 - Cleanup
+* Cleaned up docs, menus
+
 ## 0.1.1 - Bugfixes
 * Fixed a bug where typing a '>' between an opening and closing pair of tags would...behave poorly
 
