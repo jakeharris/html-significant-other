@@ -4,6 +4,10 @@ Just like your cute thing does two weeks after you start dating, this package fi
 
 `html-significant-other` will add ending tags to your HTML tags that need it as you type.
 
+## Assumptions
+- Opening tags **never** begin with anything but '<' and then an immediate alphabetic character, i.e. no spaces between the < and the letter
+- Closing tags **never** begin with anything but '</'
+
 ## Coding standards
 - Avoid semicolons where possible
 - Opening brackets on same line as block identifier
