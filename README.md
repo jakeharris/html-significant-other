@@ -9,4 +9,5 @@ Just like your cute thing does two weeks after you start dating, this package fi
 - There are several cases where it won't help you (e.g. a line with inline JS with a "<"), though in these cases it will do nothing
 
 ![A screenshot of your package](http://g.recordit.co/vIrkrbOPW0.gif)
+
 *The above happened in a Handlebars file.*
