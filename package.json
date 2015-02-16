@@ -1,8 +1,8 @@
 {
   "name": "html-significant-other",
   "main": "./lib/html-significant-other",
-  "version": "0.2.1",
-  "description": "Just like your cute thing does two weeks after you start dating, this package finishes your (HTML) sentences for you.",
+  "version": "0.2.2",
+  "description": "Finishes your (HTML) sentences (tags) for you.",
   "repository": "https://github.com/javakat/html-significant-other",
   "license": "MIT",
   "engines": {

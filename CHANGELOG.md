@@ -1,3 +1,7 @@
+## 0.2.2 - Cleanup
+
+## 0.2.1 - APM Publishing
+
 ## 0.1.2 - Cleanup
 * Cleaned up docs, menus
 
