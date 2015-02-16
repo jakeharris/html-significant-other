@@ -4,9 +4,16 @@ Just like your cute thing does two weeks after you start dating, this package fi
 
 `html-significant-other` will add ending tags to your HTML tags that need it as you type.
 
+## Remaining issues
+- **Won't recognize that the tag is closed if it is closed on a different line**
+- There are several cases where it won't help you (e.g. a line with inline JS with a "<"), though in these cases it will do nothing
+
 ## Assumptions
 - Opening tags **never** begin with anything but '<' and then an immediate alphabetic character, i.e. no spaces between the < and the letter
 - Closing tags **never** begin with anything but '</'
+
+## Design paradigm
+Don't get in the way. If it doesn't work right, do nothing.
 
 ## Coding standards
 - Avoid semicolons where possible

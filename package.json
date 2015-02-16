@@ -1,9 +1,9 @@
 {
   "name": "html-significant-other",
   "main": "./lib/html-significant-other",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "repository": "https://github.com/atom/html-significant-other",
+  "version": "0.1.0",
+  "description": "Just like your cute thing does two weeks after you start dating, this package finishes your (HTML) sentences for you.",
+  "repository": "https://github.com/javakat/html-significant-other",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
