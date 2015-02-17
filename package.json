@@ -9,6 +9,7 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
+    "bracket-matcher": "git://github.com/atom/bracket-matcher",
     "event-kit": "^0.7.2",
     "text-buffer": "^4.1.3",
     "void-elements": "^2.0.1"
