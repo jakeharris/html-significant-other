@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "event-kit": "^0.7.2",
-    "text-buffer": "^4.1.3"
+    "text-buffer": "^4.1.3",
+    "void-elements": "^2.0.1"
   }
 }
