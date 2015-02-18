@@ -12,7 +12,3 @@ Just like your cute thing does two weeks after you start dating, this package fi
 Please feel free to create issues on the [Github repo](https://github.com/javakat/html-significant-other/issues)! How will this relationship ever improve if you aren't willing to express what you want?
 
 I'll try and fix them myself as time allows, but pull requests are welcome!
-
-## Remaining issues
-- **Won't recognize that the tag is closed if it is closed on a different line**
-- There are several cases where it won't help you (e.g. a line with inline JS with a "<"), though in these cases it will do nothing
