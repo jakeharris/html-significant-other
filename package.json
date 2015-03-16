@@ -11,9 +11,10 @@
   "dependencies": {
     "event-kit": "^0.7.2",
     "text-buffer": "^4.1.3",
-    "void-elements": "^2.0.1"
+    "void-elements": "^2.0.1",
+    "atom-package-dependencies": "latest"
   },
-  "packageDependencies": {
+  "package-dependencies": {
     "bracket-matcher": "atom/bracket-matcher"
   }
 }
