@@ -1,7 +1,7 @@
 {
   "name": "html-significant-other",
   "main": "./lib/html-significant-other",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Finishes your (HTML) sentences (tags) for you.",
   "repository": "https://github.com/javakat/html-significant-other",
   "license": "MIT",
